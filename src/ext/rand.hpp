@@ -7,6 +7,8 @@
 
 namespace mari::ext {
     float randRaw() {
+        // you probably shouldn't use this in a project, but you can do whatever you want
+
         srand(time(NULL));
         // returns a random value in the range [0.0-1.0)
     
