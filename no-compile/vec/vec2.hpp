@@ -5,7 +5,7 @@ namespace mari::vec {
         public:
             float x;
             float y;
-            float z;
+            int layer;
 
             vec2(float x, float y) {
                 this->x = x;
