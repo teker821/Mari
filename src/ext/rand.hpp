@@ -7,6 +7,7 @@
 
 namespace mari::ext {
     float randRaw() {
+        srand(time(NULL));
         // returns a random value in the range [0.0-1.0)
     
         // start with a bit pattern equating to 1.0
